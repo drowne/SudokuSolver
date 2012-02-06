@@ -1,10 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0px"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-    <TextView android:id="@+id/title" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="Sudoku Solver" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_marginTop="40dip" android:layout_marginBottom="30dip"></TextView>
-    <Button android:text="Solve" android:id="@+id/solve" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></Button>
-    <Button android:text="About" android:id="@+id/about" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></Button>
+    android:padding="0px" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:shadowColor="@color/shadow"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="8"
+        android:text="@string/main_title"
+        android:textColor="@color/title"
+        android:textSize="42dip" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dip"
+        android:layout_weight="0.00"
+        android:shadowColor="@color/blackshadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="@string/main_subtitle"
+        android:textColor="@color/subtitle"
+        android:textSize="20dip" />
+
+    <Button
+        android:id="@+id/new_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/new_label"
+        android:textColor="@color/title"
+        android:textSize="20dip" />
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/about_label"
+        android:textColor="@color/title"
+        android:textSize="20dip" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/exit_label"
+        android:textColor="@color/title"
+        android:textSize="20dip" />
+
 </LinearLayout>

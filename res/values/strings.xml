@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Main!</string>
-    <string name="app_name">Sudoku_Playbook</string>
+    <string name="app_name">Sudoku Solver</string>
+	<string name="main_title">Sudoku Solver</string>
+	<string name="main_subtitle">Solves your problems!</string>
+	<string name="continue_laberl">Continue</string>
+	<string name="new_label">New</string>
+	<string name="about_label">About</string>
+	<string name="exit_label">Exit</string>
+	<string name="about_title">About Sudoku Solver 1.2 </string>
+	<string name="about_text">Sudoku Solver solves low and medium difficulty level sudokus. It\'s in beta-stage right now so report any bugs, please. At the moment it uses a smart solver and a simple backtrack algorithm to solve sudokus.\n\nFor further information please visit http://www.drowne.com</string>
+	<string name="game_title">Sudoku</string>
+	<string name="no_moves_label">No moves</string>
+	<string name="keypad_title">Insert:</string>
+	<string name="solve_label">Solve</string>
+	<string name="restart_label">Clear</string>
+	<string name="result">SUDOKU SOLVED! backtracks: </string>
+	<string name="noresult">No solution found! T_T</string>
 </resources>
